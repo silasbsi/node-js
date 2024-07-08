@@ -1,9 +1,14 @@
-var showSite = true;
-const site = "www.mysite.com";
+var calculator = require("./calculator");
 
-console.log("Hello World!");
-console.log("My name is Silas");
+console.log(calculator.sum(10, 20));
+console.log(calculator.mult(10, 20));
 
-if (showSite) {
-   console.log(site);
-}
+// var showSite = true;
+// const site = "www.mysite.com";
+
+// console.log("Hello World!");
+// console.log("My name is Silas");
+
+// if (showSite) {
+//    console.log(site);
+// }
